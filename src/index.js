@@ -21,7 +21,7 @@ exports.avg = function avg (array) {
   } else {
       let sum = 0;
       for(let i = 0; i < array.length; i++) {
-        sum += parseInt(array[i], 10);  
+        sum += array[i];  
       }
       let result = sum / array.length;
       return result;
